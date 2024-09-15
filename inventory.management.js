@@ -7,4 +7,7 @@ function displayProductDetails() {
     return `{product.name} is {status}`
 }
 //Task 3
-
+function updateStock(){
+    const unitsSold = unitsSold-quanitity <= product.lowStockLevel ? "Low Stock":"In Stock"
+    console.log("low stock")
+}
